@@ -1,0 +1,68 @@
+.btnGoBack {
+  background-color: #7996b6;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btnGoBack:hover {
+  background-color: #0056b3;
+}
+
+.noImage {
+  background-color: #ddd;
+  color: #555;
+  padding: 10px;
+  text-align: center;
+}
+
+.castItem {
+  list-style: none;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.castItem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.castItem p {
+  margin: 0;
+}
+
+.castItem {
+  list-style: none;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.castItem img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.castItem div.noImage {
+  background-color: #ddd;
+  color: #555;
+  padding: 10px;
+  text-align: center;
+  flex: 0 0 100px; 
+}
+
+.castItem p {
+  margin: 0;
+}
+
+.castItem p.actorName {
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.btnGoBack {
+    margin-top: 10px;
+    margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+.btnGoBack:hover {
+  background-color: #0056b3;
+}
+
+.movieInfo {
+  margin: 20px;
+}
+
+.posterImg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addInfo {
+  list-style: none;
+  padding: 0;
+  margin: 20px 10px;
+}
+
+.addInfoItems {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.color {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.color:hover {
+  text-decoration: underline;
+}
+
+.movieList{
+    color: rgb(55, 45, 75);
+}
+
+.info{
+    margin: 10px;
+    font-size: 20px;
+}

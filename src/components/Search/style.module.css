@@ -1,0 +1,63 @@
+.btnSearch {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin: 10px;
+  margin-right: 0;
+}
+
+.btnSearch span {
+  margin-left: 5px;
+}
+
+.btnSearch:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+    margin: 20px;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin-left: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.searchMoviesList {
+  margin: 10px 20px;
+}
+
+.searchMoviesList a {
+    text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.searchMoviesList a:hover {
+  background-color: #f0f0f0;
+}

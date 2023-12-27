@@ -1,0 +1,74 @@
+
+
+.textTrending {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; 
+}
+
+.homeMovies {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.homeMovies a {
+  text-decoration: none;
+  color: #555; 
+  display: block;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.homeMovies a:hover {
+  background-color: #f0f0f0; 
+  color: #333; 
+}
+
+.homeContainer {
+    margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.textTrending {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #524343;
+}
+
+.homeMovies {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.homeMovies a {
+  text-decoration: none;
+  color: #555;
+  display: block;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homeMovies a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
